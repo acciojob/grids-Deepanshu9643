@@ -1,2 +1,89 @@
 
 /* Your CSS Code here. */
+.item{
+	background-color:pink;
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	grid-template-rows:repeat(3,1fr);
+}
+.item1{
+	grid-column:span 2/auto;
+	background-color:blue;
+}
+.item2{
+	grid-column:span 4/auto;
+	background-color:green;
+}
+.item3{
+	background-color:chocolate;
+}
+.item4{
+	grid-column:span 2/auto;
+	background-color:orange;
+}
+.item5{
+	
+	background-color:chocolate;
+		
+}
+
+.item6{
+	grid-column:span 2/auto;
+	background-color:orange;
+		
+}
+
+.item7{
+	grid-column:;
+	background-color;
+		
+}
+
+.item8{
+	grid-column:;
+	background-color;
+		
+}
+
+.item9{
+	grid-column:;
+	background-color;
+		
+}
+
+.item10{
+	grid-column:;
+	background-color;
+		
+}
+
+.item11{
+	grid-column:;
+	background-color;
+		
+}
+
+.item12{
+	grid-column:;
+	background-color;
+		
+}
+
+.item13{
+	grid-column:;
+	background-color;
+		
+}
+
+.item14{
+	grid-column:;
+	background-color;
+		
+}
+
+.item5{
+	grid-column:;
+	background-color;
+		
+}
+
