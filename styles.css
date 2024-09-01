@@ -10,7 +10,7 @@
     margin-bottom: 10px;
 }
 
-.col-sm-6, .col-md-4 {
+.col-sm-6, .col-md-4, .col-md-8 {
     border: 3px dotted;
     padding: 20px;
     text-align: center;
@@ -39,9 +39,3 @@
 .r3c2 {
     background-color: lightgreen;
 }
-
-
-
-
-
-
