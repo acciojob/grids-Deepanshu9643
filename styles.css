@@ -1,74 +1,45 @@
-/* Your CSS Code here. */
-
-body{
-	
-	
-}
-.item{
-	background-color:pink;
-	display:grid;
-	grid-template-columns:repeat(6,1fr);
-	grid-template-rows:repeat(3,180px);
-	gap:10px;
-	background-color:pink;
-	margin:10px;
-	padding:10px;
-	border:10px solid green;
-}
-.item1{
-	grid-column:span 2/auto;
-	background-color:blue;
-	border:3px dotted ;
-}
-.item2{
-	grid-column:span 4/auto;
-	background-color:green;
-	border:3px dotted ;
-}
-.item3{
-	background-color:chocolate;
-	border:3px dotted ;
-}
-.item4{
-	grid-column:span 2/auto;
-	background-color:orange;
-	border:3px dotted ;
-}
-.item5{
-	
-	background-color:chocolate;
-		border:3px dotted ;
+.container {
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid green;
 }
 
-.item6{
-	grid-column:span 2/auto;
-	background-color:orange;
-		border:3px dotted ;
+.row {
+    display: flex;
+    margin-bottom: 10px;
 }
 
-.item7{
-	
-	background-color:chocolate;
-		border:3px dotted ;
+.col-sm-6, .col-md-4 {
+    border: 3px dotted;
+    padding: 20px;
+    text-align: center;
 }
 
-.item8{
-	grid-column:span 2/auto;
-	background-color:green;
-		border:3px dotted ;
+.r1c1 {
+    background-color: blue;
 }
 
-.item9{
-	grid-column:span 2/auto;
-	background-color:lightcyan;
-		border:3px dotted ;
+.r1c2 {
+    background-color: green;
 }
 
-.item10{
-
-	background-color:chocolate;
-		border:3px dotted ;
+.r2c1 {
+    background-color: orange;
 }
+
+.r2c2 {
+    background-color: lightcyan;
+}
+
+.r3c1 {
+    background-color: chocolate;
+}
+
+.r3c2 {
+    background-color: lightgreen;
+}
+
 
 
 
